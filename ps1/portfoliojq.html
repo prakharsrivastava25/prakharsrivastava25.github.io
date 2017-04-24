@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="p.png" />
+	<title>Prakhar Srivastava</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#About").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+    $("#Resume").click(function(){
+        $("#panel1").slideToggle("slow");
+    });
+    $("#Contact").click(function(){
+        $("#panel2").slideToggle("slow");
+    });
+    $("#Gallery").click(function(){
+        $("#panel3").slideToggle("slow");
+    });
+});
+</script>
+ 
+<style> 
+#About,#Resume,#Contact,#Gallery
+{
+	color: white;
+}
+#panel,#panel1,#panel2,#panel3 {
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+#panel,#panel1,#panel2,#panel3 {
+    
+    display: none;
+}
+</style>
+</head>
+
+<body style="background-image: url(wallpaper.png);background-size:cover; background-repeat: no-repeat;">
+	<h1 style="position: relative;top: 20px; left: 20px"><span style="color: Red">P</span><span style="color: white">rakhar Srivastava</span></h1>
+
+	<div style="text-align: right;color: white;">
+		<form action="http://www.google.com/search">
+  Search Google:
+  <input type="search" name="q">
+  <input type="submit">
+  </form>
+  </div>
+  <br>
+  <br>
+  <div style="text-align: center;">
+	<p style="font:italic bold 24px/50px Georgia, serif; color: white" >Welcome</p>
+  </div>
+	 
+<div id="About"><b><u>About</u></b></div>
+<div id="panel"><b>Prakhar Srivastava, Aspired Full Stack Programmer</b><br><br>
+Hi I am an aspiring Full Stack Developer with expertise in Java, J2ee, Jquery,Javascript, Perl, Datacom, HTML, CSS
+	<br><br>
+	In my free time,I prefer surfing the net, listening to music & watching as well as playing sports.
+</div>
+<br>
+
+<div id="Resume"><b><u>Resume</u></b></div>
+<div id="panel1"><b>My Resume</b>
+	<br>
+	<pre>
+	To view Resume in new tab <a href="biodata.html" style="color: white " target="_blank">Click Here</a></pre>
+	<a href="biodata.html" download="Biodata" style="color: white">Download </a>
+	<br>
+	</div>
+<br>
+<div id="Contact"><b><u>Contact</u></b></div>
+<div id="panel2"><b>Contact Details</b>
+<br><br>
+	<p>Phone No: (+91) - 9035166257</p>
+	<p>Email Id:<a href="mailto:prakharsrivastava25@gmail.com" style="color: white"> prakharsrivastava25@gmail.com</a></p>
+</div>
+<br>
+<div id="Gallery"><b><u>Gallery</u></b></div>
+<div id="panel3" style=""><b>Gallery</b>
+<br><br>
+<figure>
+	<a href="pic1.jpg"><img src="pic1.jpg" width="260" height="160" style="padding-left: 40px"></a>
+	<a href="pic2.jpg"><img src="pic2.jpg" width="260" height="160" style="padding-right: 40px display:inline;"></a>
+
+</figure>
+<br>
+</div>
+<br>
+<footer>
+		<div style="font:italic bold 20px/50px Georgia, serif; color: grey; position: relative;bottom: 10px; padding-left: 50% text-align-last:right;" >
+		<p>
+		&#169;Prakhar Srivastava 2017
+		</p>
+		</div>
+	</footer>
+</body>
+</html>
