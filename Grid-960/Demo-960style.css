@@ -1,0 +1,111 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Aclonica');
+
+
+.container_12
+{
+			font-family: 'Sofia';font-size: 22px;
+}
+.grid_12
+{
+	text-align: center;
+	background-color: grey;
+	padding-top: 10px;
+}
+.rightfloat
+{
+	float: right;
+}
+#reader
+{
+	background-image: url(http://eskipaper.com/images/road-wallpaper-hd-3.jpg); color: white;
+
+}
+#hero
+{
+	background-image: url("http://eskipaper.com/images/road-wallpaper-hd-3.jpg"); 
+    background-size: cover;
+    min-height: 65%;
+    max-height: 65%;
+    text-align: center;
+    font-family: 'Aclonica';font-size: 37px;
+    color: White;
+    padding-top: 5%;
+	/*text-align: center;
+	margin: auto;
+	color: white;
+	width: 100%;
+	max-height: auto;
+	height: 65%;
+	background-size: contain;
+	background-repeat: no-repeat;
+*/
+		
+}
+#headp
+{
+	text-align: center;
+	padding-top:50px;
+	padding-left: 20px;
+	font-family: 'Sofia';font-size: 30px;
+
+}
+#links
+{
+	text-align: center;
+	padding-right: 5px;
+
+}
+#fix
+{
+	background-image: url("http://eskipaper.com/images/road-wallpaper-hd-3.jpg");
+	position: fixed;
+	width: 100%;		    
+    float: right;
+    text-align: right;
+    background-color: transparent;
+    padding-top: 15px;
+    /*background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSO4orpm0fhT334KtpIjDXQ8A6xB09-zt2c5zSsp5qmrW7TyvS8");
+    background-size: cover;*/
+    padding-right: 20px;
+}
+
+#copyright
+{
+	font-family: sans-serif;
+	font-style:italic;
+	font-weight: bold;
+	text-align: center;
+	color: grey;
+}
+#footerstyle
+{
+	width: 100%;
+	text-align: center;
+	font-family: 'Sofia';font-size: 22px;
+
+}
+#navigation
+{
+	height: 30px;
+	text-align: left;
+}
+#navigation > a
+{
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px
+	text-align:center;
+	font-family: 'Aclonica';
+
+}
+#navigation > a:hover
+{
+	text-decoration: underline;
+	color: #f2992e;
+	text-align: center;
+}
