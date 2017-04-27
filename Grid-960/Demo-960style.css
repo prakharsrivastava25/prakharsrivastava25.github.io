@@ -19,6 +19,10 @@
 {
 	float: right;
 }
+#logo
+{
+	max-width:2%;
+}
 #reader
 {
 	background-image: url(http://eskipaper.com/images/road-wallpaper-hd-3.jpg); color: white;
