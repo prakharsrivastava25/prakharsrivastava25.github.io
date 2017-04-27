@@ -15,7 +15,7 @@
 	background-color: grey;
 	padding-top: 10px;
 }
-.rightfloat
+.right-float
 {
 	float: right;
 }
@@ -81,7 +81,7 @@
 	text-align: center;
 	color: grey;
 }
-#footerstyle
+#footer-style
 {
 	width: 100%;
 	text-align: center;
