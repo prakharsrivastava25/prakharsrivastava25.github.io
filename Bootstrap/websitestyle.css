@@ -1,0 +1,120 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Aclonica');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+@import url('https://fonts.googleapis.com/css?family=Antic+Didone');
+body 
+{
+	position: relative;
+	/*background-image: url(http://7bna.net/images/best-hd-wallpaper/best-hd-wallpaper-27.jpg); background-size: cover;*/
+}
+h1
+{
+	color: Orange;
+	font-family: 'Mountains of Christmas', cursive;font-weight: bold;
+	text-align: center;
+}
+footer
+{
+	background-color: white;font-family: 'Antic Didone', serif;font-size: 15px;font-weight: bold;
+}
+img
+{
+	width: 100%;
+}
+h3
+{
+	font-family: 'Mountains of Christmas', cursive;font-weight: bold;
+}
+p
+{
+	font-family: 'Antic Didone', serif;font-size: 16px;font-weight: bold;
+}
+footer{
+	padding-top: 5%;
+}
+#top-nav
+{
+	background-color: rgba(0,0,0,0.9);
+}
+#google-form
+{
+	padding-top: 2%;padding-right: 0;color: grey;
+
+
+}
+#copyright
+{
+	clear: both; text-align: center;font-weight: bold;
+}
+#brand-name
+{
+	color: orange;
+	font-family: sofia;font-weight: bold;
+}
+#myNavbar
+{
+	font-family: 'Mountains of Christmas', cursive;font-weight: bold;font-size: 160%;
+}
+
+#section1
+{
+	padding:0;color: #fff; background-color: white;margin: auto;
+}
+#section2 
+{
+	/*padding-top:50px;*/height:auto;color: black; /*background-color: #673ab7*/ background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/08/Desktop-Free-Images-Travel.jpg);background-size: cover;opacity: 0.85;
+}
+#section3 
+{
+	/*padding-top:50px;*/height:auto;color: white; /*background-color: #ff9800*/ background-image: url(http://wallpaperhdn.com/wp-content/uploads/City-Grid-Dusk-Birds-Flying-Wallpaper.jpg);background-size: cover;
+	padding-top: 7%;padding-bottom: 5%;
+}
+#section4
+{
+	/*padding-top:50px;*/height:500px;color: black; /*background-color: #00bcd4;*/
+}
+#section2 > h3
+{
+	padding-top: 2%;
+}
+#section2 > h3 > a
+{
+	color: white;
+}
+#googleMap
+{
+	width:100%;height:85%;
+}
+
+#route
+{
+	font-family: 'Antic Didone', serif;font-size: 20px;font-weight: bold;
+}
+#route > a
+{
+	font-family: 'Antic Didone', serif;font-size: 20px;font-weight: bold;color: white;
+}
+#search
+{
+	padding-top: 3%; padding-bottom: 15%;
+}
+#class
+{
+	width:35%;
+}
+#passenger
+{
+	width:20%;
+}
+#section2col1
+{
+	padding-top: 5%;
+}
+#section2col2
+{
+	padding-top: 3.5%;
+}
