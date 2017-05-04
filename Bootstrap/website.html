@@ -29,7 +29,14 @@
 <script type="text/javascript">
   // alert("Hi Prakhar");
 </script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script> 
+    $(document).ready(function(){
+      $("#link").click(function(){
+        $("#login").slideToggle("slow");
+    });
+    });
+  </script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -108,10 +115,20 @@
   </div>
 </section>
 
+
 <h1>Flights</h1>
 <section class="container-fluid" id="section2">
-  <!-- <div class="row"> -->
-  <h3><a href="#" >Offers</a></h3>
+  <!-- <div class="row"> --><div id="link"><h3> <a>Log In</a></h3></div>
+<div class="alert alert-success" id="login">
+    <strong>Log In</strong>
+    <form>Username:
+      <input type="Username" name="usr">
+      Password:
+      <input type="Password" name="pwd">
+      <input type="submit" name="submit" value="Sign In">
+    </form> 
+  </div>
+  
   <div  class="col-md-6" id="section2col1">
     <!-- <h1>Flights</h1> -->
     <div class="form-group">
