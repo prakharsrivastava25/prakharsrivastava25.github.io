@@ -69,7 +69,7 @@ a:hover{
 .gallery
 {
 	width: 100%;
-	opacity: 0.7;
+	opacity: 0.9;
 }
 .gallery:hover
 
@@ -78,7 +78,7 @@ a:hover{
 }
 img
 {
-	width: 15%;
+	width: 16%;
 	height: auto;
 }
 
@@ -88,7 +88,7 @@ span
 	font-size: 135%;
 }
 
-}
+
 #copyright
 {
 	font-weight: bold;
@@ -111,8 +111,38 @@ footer
 	font-weight: bold
 }
 
+
+@media screen and (max-width:350px) {
+	img
+	{
+		width: 30%;
+		height: auto;
+	}
+	figure > a > img
+	{
+		width: 100%;
+		height: auto;
+		padding-top: 5%;
+	}
+	#section1
+	{
+		padding-top: 20%;
+	}
+	h1
+	{
+		padding-top: 20%;
+	}
+
+
+}
+
 @media screen and (max-width:500px) {
 
+	img
+{
+	width: 30%;
+	height: auto;
+}
 	figure > a > img
 	{
 		width: 100%;
@@ -130,27 +160,14 @@ footer
 
 
 }
-@media screen and (max-width:350px) {
 
-	figure > a > img
-	{
-		width: 100%;
-		height: auto;
-		padding-top: 5%;
-	}
-	#section1
-	{
-		padding-top: 20%;
-	}
-	h1
-	{
-		padding-top: 20%;
-	}
-
-
-}
 @media screen and (max-width:768px) {
 
+	img
+{
+	width: 50%;
+	height: auto;
+}
 	figure > a > img
 	{
 		width: 100%;
