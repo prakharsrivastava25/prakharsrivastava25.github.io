@@ -111,7 +111,9 @@ footer
 	color: white;
 	font-weight: bold
 }
-
+#top-nav{
+	background-color: #212331;
+}
 
 @media screen and (max-width:350px) {
 	img
